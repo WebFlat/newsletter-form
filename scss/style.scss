@@ -96,7 +96,7 @@ body{
 		&::placeholder {
 			color: #a9a9a9;
 			font-size: 2rem;
-			letter-spacing: 1.4;
+			letter-spacing: 1.4px;
 			@include tr(.3s);
 		}
 		&:focus::placeholder,
@@ -112,7 +112,7 @@ body{
 		color: #fff;
 		text-transform: uppercase;
 		font-size: 1.8rem;
-		letter-spacing: 1.55;
+		letter-spacing: 1.55px;
 		cursor: pointer;
 		border-color: transparent;
 		@include tr(.5s);
