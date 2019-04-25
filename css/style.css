@@ -343,8 +343,8 @@ body {
   font-weight: 500; }
   .form__logo-wrapper {
     position: absolute;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border-color: #538fff;
     background-color: #538fff;
@@ -352,7 +352,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
-    top: -10%;
+    top: -11%;
     left: calc(50% - 45px);
     padding: 6px; }
   .form__logo {
@@ -374,7 +374,6 @@ body {
       color: #787d87;
       font-size: 2rem; }
   .form__data {
-    max-width: 540px;
     width: 100%; }
   .form__input {
     outline: none;
@@ -437,6 +436,9 @@ body {
     padding: 20px;
     border-radius: 15px;
     width: 30%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
     background-color: #538fff;
     color: #fff;
     text-transform: uppercase;
